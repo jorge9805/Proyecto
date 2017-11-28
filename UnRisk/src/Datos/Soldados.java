@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Mapa;
+package Datos;
 
 /**
  *
- * @author admin
+ * @author Usuario
  */
-public class Facultad {
+public class Soldados {
     
 }
