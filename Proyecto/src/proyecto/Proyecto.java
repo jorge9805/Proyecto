@@ -60,8 +60,6 @@ public class Proyecto {
             Ciencias.add(FacultasCiencias);
             
             
-            
-            
             //leyes
             ArrayList<Edificios> contiguosDerecho = null;
             Edificios Derecho  = new Edificios("Derecho");
@@ -132,9 +130,18 @@ public class Proyecto {
             Edificios CADE = new Edificios("CADE");
             ArrayList<Edificios> contiguosIEI  = null;
             Edificios IEI = new Edificios("IEI");
+            Ingenieria.add(AulasIngenieria);
+            Ingenieria.add(IEI);
+            Ingenieria.add(CYT);
+            Ingenieria.add(Materiales);
+            Ingenieria.add(LabIngenieria);
+            Ingenieria.add(LabIngenieriaQuimica);
+            Ingenieria.add(Hidraulica);
+            Ingenieria.add(CADE);
             
             //Fumanas
-           
+            
+            
             
             
             Facultad ciencias= new Facultad("ciencias", 5, Ciencias);
