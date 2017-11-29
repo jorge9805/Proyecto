@@ -130,6 +130,22 @@ public class Proyecto {
             contiguosFEM.add(Quimica);
             contiguosFEM.add(Viejo);
             
+            contiguosBiologia.add(Genetica);
+            contiguosBiologia.add(FEM);
+            contiguosBiologia.add(Patios);
+            contiguosGenetica.add(Biologia);
+            contiguosFarmacia.add(Quimica);
+            contiguosFarmacia.add(che);
+            contiguosFacultasCiencias.add(PequeñosAnimales);
+            contiguosFacultasCiencias.add(Quimica);
+            contiguosQuimica.add(FacultasCiencias);
+            contiguosQuimica.add(CYT);
+            contiguosQuimica.add(Aulas);
+            contiguosQuimica.add(IEI);
+            contiguosQuimica.add(FEM);
+            contiguosQuimica.add(Viejo);
+            contiguosQuimica.add(Farmacia);
+            contiguosQuimica.add(Medicina);
             
             contiguosPequeñosAnimales.add(Agronomia);
             contiguosPequeñosAnimales.add(FacultasCiencias);
