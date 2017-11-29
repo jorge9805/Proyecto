@@ -37,7 +37,7 @@ public class Proyecto {
             
             
             //ciencias
-            ArrayList<Edificios> contiguosPosgradosFEM = null;
+            ArrayList<Edificios> contiguosFEM = null;
             Edificios FEM = new Edificios("FEM");
             ArrayList<Edificios> contiguosIngeominas  = null;
             Edificios Ingeominas = new Edificios("Ingeominas");
@@ -139,7 +139,7 @@ public class Proyecto {
             Edificios PosgradosHumanas = new Edificios("Posgrados Humanas");
             
             //Conexiones
-            
+            contiguos
             contiguosPequeñosAnimales.add(Agronomia);
             contiguosPequeñosAnimales.add(FacultasCiencias);
             contiguosPequeñosAnimales.add(FacultasCiencias);
