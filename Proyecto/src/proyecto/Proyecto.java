@@ -133,8 +133,8 @@ public class Proyecto {
             
             contiguosPequeñosAnimales.add(Agronomia);
             contiguosPequeñosAnimales.add(FacultasCiencias);
-            contiguosPequeñosAnimales.add(FacultasCiencias);
-            contiguosPequeñosAnimales.add(FacultasCiencias);
+            contiguosPequeñosAnimales.add(Veterinaria);
+            contiguosPequeñosAnimales.add(PosgradosHumanas);
             
             contiguosAgronomia.add(PequeñosAnimales);
                         
