@@ -26,8 +26,8 @@ public class Proyecto {
             Edificios FEM = new Edificios("FEM");
             ArrayList<Edificios> contiguosBiologia  = null;
             Edificios Biologia = new Edificios("Biologia");
-            ArrayList<Edificios> contiguosCienciasNaturales  = null;
-            Edificios CienciasNaturales  = new Edificios("CienciasNaturales");
+            ArrayList<Edificios> contiguosGenetica = null;
+            Edificios Genetica  = new Edificios("CienciasNaturales");
             ArrayList<Edificios> contiguosQuimica  = null;
             Edificios Quimica = new Edificios("Quimica");
             ArrayList<Edificios> contiguosFarmacia  = null;
@@ -36,7 +36,7 @@ public class Proyecto {
             Edificios FacultasCiencias = new Edificios("FacultasCiencias");
             Ciencias.add(FEM);
             Ciencias.add(Biologia);
-            Ciencias.add(CienciasNaturales);
+            Ciencias.add(Genetica);
             Ciencias.add(Quimica);
             Ciencias.add(Farmacia);
             Ciencias.add(FacultasCiencias);
@@ -129,6 +129,7 @@ public class Proyecto {
             contiguosFEM.add(IEI);
             contiguosFEM.add(Quimica);
             contiguosFEM.add(Viejo);
+            
             
             contiguosPequeñosAnimales.add(Agronomia);
             contiguosPequeñosAnimales.add(FacultasCiencias);
