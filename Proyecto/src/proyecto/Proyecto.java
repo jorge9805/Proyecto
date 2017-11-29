@@ -126,10 +126,9 @@ public class Proyecto {
             contiguosFEM.add(Arquitectura);
             contiguosFEM.add(CADE);
             contiguosFEM.add(Biologia);
-            contiguosFEM.add(Arquitectura);
-            contiguosFEM.add(Arquitectura);
-            contiguosFEM.add(Arquitectura);
-            contiguosFEM.add(Arquitectura);
+            contiguosFEM.add(IEI);
+            contiguosFEM.add(Quimica);
+            contiguosFEM.add(Viejo);
             
             contiguosPequeñosAnimales.add(Agronomia);
             contiguosPequeñosAnimales.add(FacultasCiencias);
