@@ -175,6 +175,35 @@ public class Proyecto {
             contiguosArquitectura.add(BellasArtes);
             contiguosArquitectura.add(Conservatorio);
             contiguosArquitectura.add(FEM);
+              contiguosMuseo.add(che);
+            
+            contiguosAulas.add(Arquitectura);
+            
+            contiguosBellasArtes.add(che);
+            contiguosBellasArtes.add(Viejo);
+            contiguosBellasArtes.add(Arquitectura);
+            
+            contiguosAulasHumanas.add(Odontologia);
+            contiguosAulasHumanas.add(PosgradosHumanas);
+            contiguosAulasHumanas.add(CienciasHumanas);
+            
+            contiguosPosgradosHumanas.add(AulasHumanas);
+            contiguosPosgradosHumanas.add(Odontologia);
+            contiguosPosgradosHumanas.add(SaludAnimal);
+            
+            contiguosMedicina.add(Quimica);
+            contiguosMedicina.add(Enfermeria);
+            contiguosMedicina.add(che);
+            
+            contiguosOdontologia.add(PosgradosHumanas);
+            contiguosOdontologia.add(AulasHumanas);
+            contiguosOdontologia.add(Enfermeria);
+            
+            contiguosEnfermeria.add(Medicina);
+            contiguosEnfermeria.add(Odontologia);
+            contiguosEnfermeria.add(CienciasHumanas);
+            contiguosEnfermeria.add(Derecho);
+            
             //Facultades
             Facultad ciencias= new Facultad("ciencias", 5, Ciencias);
             Facultad artes = new Facultad("Artes", 5, Artes);
