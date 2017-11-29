@@ -12,12 +12,12 @@ import static java.awt.image.ImageObserver.WIDTH;
  *
  * @author admin
  */
-public class Pantallainicio extends javax.swing.JFrame {
+public class PantallaInicio extends javax.swing.JFrame {
 
     /**
      * Creates new form Pantallainicio
      */
-    public Pantallainicio() {
+    public PantallaInicio() {
         initComponents();
         this.setLocationRelativeTo(null);
         this.pantallainicio=(null);
@@ -109,7 +109,7 @@ public class Pantallainicio extends javax.swing.JFrame {
     
 
 
-    private Pantallainicio pantallainicio;
+    private PantallaInicio pantallainicio;
     // Variables declaration - do not modify                     
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;

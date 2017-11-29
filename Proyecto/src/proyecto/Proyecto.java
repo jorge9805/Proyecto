@@ -78,7 +78,7 @@ public class Proyecto {
             Salud.add(Odontologia);
             
             
-            //cienciasAgrarias
+            //CienciasAgrarias
             ArrayList<Edificios> contiguosPequeñosAnimales = null;
             Edificios PequeñosAnimales = new Edificios("Pequeños Animales" );
             ArrayList<Edificios> contiguosVeterinaria = null;
@@ -93,7 +93,7 @@ public class Proyecto {
             CienciasAgrarias.add(Agronomia);
             
             
-            //artes
+            //Artes
             ArrayList<Edificios> contiguosArquitectura = null;
             Edificios Arquitectura = new Edificios("Arquitectura" );
             ArrayList<Edificios> contiguosBellasArtes  = null;
@@ -111,7 +111,7 @@ public class Proyecto {
             Artes.add(Aulas);
             
             
-            //ingenieria
+            //Ingenieria
             ArrayList<Edificios> contiguosAulasIngenieria  = null;
             Edificios AulasIngenieria = new Edificios("Aulas de Ingenieria");
             ArrayList<Edificios> contiguosCYT  = null;
@@ -140,7 +140,6 @@ public class Proyecto {
             Ingenieria.add(CADE);
             
             //Fumanas
-            
             ArrayList<Edificios> contiguosAulasHumanas  = null;
             Edificios AulasHumanas = new Edificios("Aulas de Humanas");
             ArrayList<Edificios> contiguosCienciasHumanas  = null;
@@ -148,12 +147,9 @@ public class Proyecto {
             ArrayList<Edificios> contiguosPosgradosHumanas  = null;
             Edificios PosgradosHumanas = new Edificios("Posgrados Humanas");
             
-            
-            
-            
             //Conexiones
             
-            
+            //Facultades
             Facultad ciencias= new Facultad("ciencias", 5, Ciencias);
             Facultad artes = new Facultad("Artes", 5, Artes);
             Facultad plazache= new Facultad("Plaza Che", 3, Che);
