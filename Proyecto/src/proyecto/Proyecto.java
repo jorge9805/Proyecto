@@ -145,6 +145,9 @@ public class Proyecto {
             contiguosPequeñosAnimales.add(FacultasCiencias);
             contiguosPequeñosAnimales.add(FacultasCiencias);
             
+            contiguosAgronomia.add(PequeñosAnimales);
+            
+            
             //Facultades
             Facultad ciencias= new Facultad("ciencias", 5, Ciencias);
             Facultad artes = new Facultad("Artes", 5, Artes);
