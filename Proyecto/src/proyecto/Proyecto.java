@@ -1,23 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package proyecto;
 
 import Datos.Edificios;
 import Datos.Facultad;
 import java.util.ArrayList;
 
-/**
- *
- * @author admin
- */
 public class Proyecto {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
             ArrayList<Edificios> Che = null;
             ArrayList<Edificios> Ciencias = null;
@@ -28,15 +16,12 @@ public class Proyecto {
             ArrayList<Edificios> Ingenieria = null;
             ArrayList<Edificios> Fumanas= null;
             
-            
-            
-            //che 
+            //Che 
             ArrayList<Edificios> contiguosChe = null;
             Edificios che = new Edificios("Che");
             Che.add(che);
             
-            
-            //ciencias
+            //Ciencias
             ArrayList<Edificios> contiguosFEM = null;
             Edificios FEM = new Edificios("FEM");
             ArrayList<Edificios> contiguosIngeominas  = null;
@@ -56,14 +41,13 @@ public class Proyecto {
             Ciencias.add(Farmacia);
             Ciencias.add(FacultasCiencias);
             
-            
-            //leyes
+            //Derecho
             ArrayList<Edificios> contiguosDerecho = null;
             Edificios Derecho  = new Edificios("Derecho");
             Leyes.add(Derecho);
             
             
-            //salud
+            //Medicina
             ArrayList<Edificios> contiguosMedicina = null;
             Edificios Medicina   = new Edificios("Medicina" );
             ArrayList<Edificios> contiguosEnfermeria = null;
