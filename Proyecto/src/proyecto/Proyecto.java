@@ -137,6 +137,12 @@ public class Proyecto {
             contiguosPequeñosAnimales.add(FacultasCiencias);
             
             contiguosAgronomia.add(PequeñosAnimales);
+                        
+            contiguosSaludAnimal.add(CienciasNaturales);
+            contiguosSaludAnimal.add(Veterinaria);
+            contiguosSaludAnimal.add(PosgradosHumanas);
+            
+            contiguosVeterinaria.add(SaludAnimal);
             
             
             //Facultades
