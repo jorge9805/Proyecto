@@ -149,12 +149,15 @@ public class Proyecto {
             Edificios PosgradosHumanas = new Edificios("Posgrados Humanas");
             
             
+            
+            
+            //Conexiones
+            
+            
             Facultad ciencias= new Facultad("ciencias", 5, Ciencias);
             Facultad artes = new Facultad("Artes", 5, Artes);
             Facultad plazache= new Facultad("Plaza Che", 3, Che);
             Facultad medicina= new Facultad("Medicina", 3, Che);
-
-           
     }
     
 }
