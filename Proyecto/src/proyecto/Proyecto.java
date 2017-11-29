@@ -38,8 +38,6 @@ public class Proyecto {
             
             //ciencias
             ArrayList<Edificios> contiguosPosgradosFEM = null;
-            Edificios PosgradosFEM = new Edificios("Posgrados FEM");
-            ArrayList<Edificios> contiguosFEM  = null;
             Edificios FEM = new Edificios("FEM");
             ArrayList<Edificios> contiguosIngeominas  = null;
             Edificios Ingeominas = new Edificios("Ingeominas");
@@ -52,7 +50,6 @@ public class Proyecto {
             ArrayList<Edificios> contiguosFacultasCiencias = null;
             Edificios FacultasCiencias = new Edificios("FacultasCiencias");
             Ciencias.add(FEM);
-            Ciencias.add(PosgradosFEM);
             Ciencias.add(Ingeominas);
             Ciencias.add(CienciasNaturales);
             Ciencias.add(Quimica);
@@ -116,14 +113,10 @@ public class Proyecto {
             Edificios AulasIngenieria = new Edificios("Aulas de Ingenieria");
             ArrayList<Edificios> contiguosCYT  = null;
             Edificios CYT = new Edificios("CYT");
-            ArrayList<Edificios> contiguosMateriales = null;
-            Edificios Materiales = new Edificios("Materiales");
-            ArrayList<Edificios> contiguosLabIngenieria  = null;
-            Edificios LabIngenieria = new Edificios("LabIngenieria");
+            ArrayList<Edificios> contiguosPatios  = null;
+            Edificios Patios = new Edificios("Patios");
             ArrayList<Edificios> contiguosLabIngenieriaQuimica  = null;
             Edificios LabIngenieriaQuimica = new Edificios("LabIngenieriaQuimica");
-            ArrayList<Edificios> contiguosHidraulica  = null;
-            Edificios Hidraulica = new Edificios("Hidraulica");
             ArrayList<Edificios> contiguosViejo  = null;
             Edificios Viejo  = new Edificios("Viejo ");
             ArrayList<Edificios> contiguosCADE  = null;
@@ -133,10 +126,8 @@ public class Proyecto {
             Ingenieria.add(AulasIngenieria);
             Ingenieria.add(IEI);
             Ingenieria.add(CYT);
-            Ingenieria.add(Materiales);
-            Ingenieria.add(LabIngenieria);
+            Ingenieria.add(Patios);
             Ingenieria.add(LabIngenieriaQuimica);
-            Ingenieria.add(Hidraulica);
             Ingenieria.add(CADE);
             
             //Fumanas
