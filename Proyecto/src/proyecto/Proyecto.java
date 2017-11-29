@@ -158,6 +158,10 @@ public class Proyecto {
             Facultad artes = new Facultad("Artes", 5, Artes);
             Facultad plazache= new Facultad("Plaza Che", 3, Che);
             Facultad medicina= new Facultad("Medicina", 3, Che);
+            Facultad ingenieria=new Facultad("Ingenieria", 7, Ingenieria);
+            Facultad leyes=new Facultad("leyes", 1,Leyes);
+            Facultad cienciasAgrarias=new Facultad("ciencias Agrarias", 7,CienciasAgrarias);
+            Facultad fumanas=new Facultad("Fumanas", 7,Fumanas);
     }
     
 }
