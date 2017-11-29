@@ -79,7 +79,20 @@ public class Proyecto {
             Salud.add(Enfermeria);
             Salud.add(Odontologia);
             
+            
             //cienciasAgrarias
+            ArrayList<Edificios> contiguosPequeñosAnimales = null;
+            Edificios PequeñosAnimales = new Edificios("Pequeños Animales" );
+            ArrayList<Edificios> contiguosVeterinaria = null;
+            Edificios Veterinaria = new Edificios("Veterinaria" );
+            ArrayList<Edificios> contiguosSaludAnimal = null;
+            Edificios SaludAnimal  = new Edificios("SaludAnimal" );
+            ArrayList<Edificios> contiguosAgronomia = null;
+            Edificios Agronomia = new Edificios("Agronomia" );
+            CienciasAgrarias.add(PequeñosAnimales);
+            CienciasAgrarias.add(Veterinaria);
+            CienciasAgrarias.add(SaludAnimal);
+            CienciasAgrarias.add(Agronomia);
             
             
             //artes
@@ -100,9 +113,25 @@ public class Proyecto {
             Artes.add(Aulas);
             
             
-            
             //ingenieria
-            
+            ArrayList<Edificios> contiguosAulasIngenieria  = null;
+            Edificios AulasIngenieria = new Edificios("Aulas de Ingenieria");
+            ArrayList<Edificios> contiguosCYT  = null;
+            Edificios CYT = new Edificios("CYT");
+            ArrayList<Edificios> contiguosMateriales = null;
+            Edificios Materiales = new Edificios("Materiales");
+            ArrayList<Edificios> contiguosLabIngenieria  = null;
+            Edificios LabIngenieria = new Edificios("LabIngenieria");
+            ArrayList<Edificios> contiguosLabIngenieriaQuimica  = null;
+            Edificios LabIngenieriaQuimica = new Edificios("LabIngenieriaQuimica");
+            ArrayList<Edificios> contiguosHidraulica  = null;
+            Edificios Hidraulica = new Edificios("Hidraulica");
+            ArrayList<Edificios> contiguosViejo  = null;
+            Edificios Viejo  = new Edificios("Viejo ");
+            ArrayList<Edificios> contiguosCADE  = null;
+            Edificios CADE = new Edificios("CADE");
+            ArrayList<Edificios> contiguosIEI  = null;
+            Edificios IEI = new Edificios("IEI");
             
             //Fumanas
            
