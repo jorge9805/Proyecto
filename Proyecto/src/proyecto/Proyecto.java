@@ -129,7 +129,6 @@ public class Proyecto {
             contiguosFEM.add(IEI);
             contiguosFEM.add(Quimica);
             contiguosFEM.add(Viejo);
-            
             contiguosBiologia.add(Genetica);
             contiguosBiologia.add(FEM);
             contiguosBiologia.add(Patios);
@@ -146,6 +145,19 @@ public class Proyecto {
             contiguosQuimica.add(Viejo);
             contiguosQuimica.add(Farmacia);
             contiguosQuimica.add(Medicina);
+            
+            contiguosChe.add(BellasArtes);
+            contiguosChe.add(Museo);
+            contiguosChe.add(Conservatorio);
+            contiguosChe.add(Viejo);
+            contiguosChe.add(Farmacia);
+            contiguosChe.add(Medicina);
+            contiguosChe.add(Derecho);
+            contiguosChe.add(CienciasHumanas);
+            
+            contiguosDerecho.add(che);
+            contiguosDerecho.add(Enfermeria);
+            contiguosDerecho.add(CienciasHumanas);
             
             contiguosPequeñosAnimales.add(Agronomia);
             contiguosPequeñosAnimales.add(FacultasCiencias);
