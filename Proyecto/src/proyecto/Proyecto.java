@@ -138,13 +138,15 @@ public class Proyecto {
             
             contiguosAgronomia.add(PequeñosAnimales);
                         
-            contiguosSaludAnimal.add(CienciasNaturales);
+            contiguosSaludAnimal.add(FacultasCiencias);
             contiguosSaludAnimal.add(Veterinaria);
             contiguosSaludAnimal.add(PosgradosHumanas);
             
             contiguosVeterinaria.add(SaludAnimal);
             
-            
+            contiguosArquitectura.add(BellasArtes);
+            contiguosArquitectura.add(Conservatorio);
+            contiguosArquitectura.add(FEM);
             //Facultades
             Facultad ciencias= new Facultad("ciencias", 5, Ciencias);
             Facultad artes = new Facultad("Artes", 5, Artes);
