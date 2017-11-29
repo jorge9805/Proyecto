@@ -139,7 +139,7 @@ public class Proyecto {
             Edificios PosgradosHumanas = new Edificios("Posgrados Humanas");
             
             //Conexiones
-            contiguos
+            
             contiguosPequeñosAnimales.add(Agronomia);
             contiguosPequeñosAnimales.add(FacultasCiencias);
             contiguosPequeñosAnimales.add(FacultasCiencias);
