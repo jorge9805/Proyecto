@@ -141,7 +141,12 @@ public class Proyecto {
             
             //Fumanas
             
-            
+            ArrayList<Edificios> contiguosAulasHumanas  = null;
+            Edificios AulasHumanas = new Edificios("Aulas de Humanas");
+            ArrayList<Edificios> contiguosCienciasHumanas  = null;
+            Edificios CienciasHumanas  = new Edificios("Ciencias Humanas ");
+            ArrayList<Edificios> contiguosPosgradosHumanas  = null;
+            Edificios PosgradosHumanas = new Edificios("Posgrados Humanas");
             
             
             Facultad ciencias= new Facultad("ciencias", 5, Ciencias);
